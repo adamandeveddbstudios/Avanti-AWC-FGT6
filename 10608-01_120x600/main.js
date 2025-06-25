@@ -24,6 +24,7 @@ function animate() {
 
   // tl1.set(["#main_content"], { autoAlpha: 1, force3D: true });
   tl1.set(["#cta"], { force3D: false, rotation: .001 });
+  tl1.set(["#turtle-shadow"], { x:"19px", y:"39px" });
   
   tl1.to(['#turtle', '#turtle-shadow'], 1,{  y: '-=35', x: '+=120', ease: "power1.out" }, 0);
   tl1.staggerTo(['.headline'], 1,{ scale: 1, y: '-=35', x: '+=120', ease: "power1.out" }, 0.1, 0);

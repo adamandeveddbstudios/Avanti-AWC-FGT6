@@ -39,14 +39,14 @@ html, body {
 }
 
 .headline {
-  top: 10px;
+  /* top: 10px; */
   left: -728px;
   transform: scale(0);
 }
 
 #turtle,
 #turtle-shadow {
-  top: 35px;
+  /* top: 35px; */
   left: -728px;
 }
 
