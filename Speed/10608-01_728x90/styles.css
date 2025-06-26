@@ -39,9 +39,11 @@ html, body {
 }
 
 .headline {
-  top: 25px;
-  left: -728px;
-  transform: scale(0);
+  top: -10px;
+  left: 0px;
+  transform: scale(2.5);
+  transform-origin: center center;
+  display: inline-block;
 }
 
 #turtle,
@@ -56,14 +58,14 @@ html, body {
 
 #logo {
   width: 100px;
-  left: 613px;
-  top: 16px;
+  left: 613.5px;
+  top: 16.5px;
 }
 
 #cta {
-  width: 96px;
+  width: 97px;
   left: 484px;
-  top: 27px;
+  top: 28px;
 }
 
 .frame {
@@ -82,14 +84,14 @@ html, body {
 }
 
 #frame-right {
-  top: -125px;
+  top: -127px;
   left: 793px;
 
   transform: rotate(-20deg);
 }
 
 #frame-bottom {
-  top: 167px;
+  top: 168px;
   left: -250px;
 
   transform: rotate(27deg);
