@@ -40,9 +40,9 @@ html, body {
 
 .headline {
   width: 150px;
-  top: 35px;
-  left: -120px;
-  transform: scale(0);
+  top: 0px;
+  left: 0px;
+  transform: scale(2.5);
 }
 
 #turtle,
@@ -64,7 +64,7 @@ html, body {
 #cta {
   width: 96px;
   left: 12px;
-  top: 425px;
+  top: 428px;
 }
 
 .frame {

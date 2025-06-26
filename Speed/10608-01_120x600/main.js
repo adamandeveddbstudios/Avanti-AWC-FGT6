@@ -24,9 +24,10 @@ function animate() {
 
   // tl1.set(["#main_content"], { autoAlpha: 1, force3D: true });
   tl1.set(["#cta"], { force3D: false, rotation: .001 });
+  tl1.set(["#turtle-shadow"], { x:"19px", y:"39px" });
   
   tl1.to(['#turtle', '#turtle-shadow'], 1,{  y: '-=35', x: '+=120', ease: "power1.out" }, 0);
-  tl1.staggerTo(['.headline'], 1,{ scale: 1, y: '-=35', x: '+=120', ease: "power1.out" }, 0.1, 0);
+  tl1.staggerTo(['.headline'], 0.5,{ scale: 1, autoAlpha:1,  ease: "back.out(1.1)"}, 0.2, 0);
 
   tl1.to(['#frame-left'], 1,{ x: '+=100', ease: "power1.out" }, '+=0');
   tl1.to(['#frame-right'], 1,{ x: '-=100', ease: "power1.out" }, '<');
