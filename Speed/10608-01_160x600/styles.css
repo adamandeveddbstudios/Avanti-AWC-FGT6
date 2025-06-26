@@ -39,9 +39,9 @@ html, body {
 }
 
 .headline {
-  top: 35px;
-  left: -160px;
-  transform: scale(0);
+  top: 0px;
+  left: 0px;
+  transform: scale(2.5);
 }
 
 #turtle,
@@ -56,14 +56,14 @@ html, body {
 
 #logo {
   width: 128px;
-  left: 20px;
+  left: 16px;
   top: 494px;
 }
 
 #cta {
   width: 96px;
   left: 32px;
-  top: 423px;
+  top: 419px;
 }
 
 .frame {
