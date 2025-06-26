@@ -39,7 +39,7 @@ html, body {
 }
 
 .headline {
-  top: 0px;
+  top: -21px;
   left: 0px;
   transform: scale(2.5);
 }
