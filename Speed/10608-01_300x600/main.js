@@ -24,6 +24,7 @@ function animate() {
 
   // tl1.set(["#main_content"], { autoAlpha: 1, force3D: true });
   tl1.set(["#cta"], { force3D: false, rotation: .001 });
+  tl1.set(["#turtle-shadow"], { x:"30px", y:"-18px" });
   
   tl1.to(['#turtle', '#turtle-shadow'], 1,{ x: '+=300', ease: "power1.out" }, 0);
   tl1.to(['#turtle', '#turtle-shadow'], 0.5,{ y: '-=75', ease: "power1.out" }, 0);
