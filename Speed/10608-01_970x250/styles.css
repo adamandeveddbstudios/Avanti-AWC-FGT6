@@ -39,14 +39,14 @@ html, body {
 }
 
 .headline {
-  top: 75px;
-  left: -970px;
-  transform: scale(0);
+  top: 0px;
+  left: 0px;
+  transform: scale(2.5);
 }
 
 #turtle,
 #turtle-shadow {
-  top: 75px;
+  top: 55px;
   left: -970px;
 }
 
@@ -56,14 +56,14 @@ html, body {
 
 #logo {
   width: 150px;
-  top: 131px;
-  left: 790px;
+  top: 135.5px;
+  left: 794.5px;
 }
 
 #cta {
   width: 126px;
-  top: 30px;
-  left: 30px;
+  top: 187px;
+  left: 423px;
 }
 
 .frame {
