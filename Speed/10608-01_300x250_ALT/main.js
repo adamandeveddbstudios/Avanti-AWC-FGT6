@@ -27,8 +27,8 @@ function animate() {
   tl1.set(["#turtle-shadow"], { x:"45px", y:"-8px" });
   
   tl1.staggerTo(['.headline'], 0.5,{ scale: 1, autoAlpha:1,  ease: "back.out(1.1)"}, 0.2, 0);
-  tl1.to(['#turtle', '#turtle-shadow'], 1,{ x: '+=300', ease: "power1.out" }, 1.5);
-  tl1.to(['#turtle', '#turtle-shadow'], 0.5,{ y: '-=75', ease: "power1.out" }, 1.5);
+  tl1.to(['#turtle', '#turtle-shadow'], 1,{ x: '+=300', ease: "power1.out" }, 1);
+  tl1.to(['#turtle', '#turtle-shadow'], 0.5,{ y: '-=75', ease: "power1.out" }, 1);
 
   tl1.to(['#frame-left'], 1,{ x: '+=100', ease: "power1.out" }, '+=.5');
   tl1.to(['#frame-right'], 1,{ x: '-=100', ease: "power1.out" }, '<');
